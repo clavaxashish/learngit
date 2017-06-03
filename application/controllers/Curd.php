@@ -60,7 +60,9 @@ echo "<pre>";
     }
 
 
-public function sum($val){
+public function sum($val){ 
+
+echo "ddd"; die;
 
      if($val==1){
          return 1;
